@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact details</title>
+</head>
+<body>
+    <!-- using table table >tr > td -->
+    <!-- cell spacing is used to put spaces betweeen table cells -->
+    <table cellspacing="20">
+        <tbody>
+            <tr>
+                <td><strong>Email</strong></td> 
+                <td>Raviraj03@gmail.com</td>     
+            </tr>
+
+            <tr><td><strong>Phone no</strong></td> 
+                <td>9082604639</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <h3>Sign up</h3>
+    <!-- Creating form  which consist label and various types of input  as attributes mainly 
+    action : after submiting where should it take you to -->
+    <!--  method atribute will allow us to post the data within mail that we submited in the form
+    enctype will enable use encoding of form data within mail  -->
+    <form action="mailto:Raviraj03.py@gmail.com" method="POST" enctype="text/plain">
+    <table cellspacing='10'>
+        <tr>
+            <td><label for="1">Name</label> </td>
+            <td><input type="text" id="1"></td>
+        </tr>
+        <tr>
+            <td><label for="2">Email id</label></td>
+            <td><input type="email" id="2" name="MailId"></td>
+        </tr>
+        <tr>
+            <td><label for="3">Password</label></td>
+            <td><input type="password" name="" id="3"></td>
+        </tr>
+        <tr>
+            <td><h5>Message for me</h5></td>
+            <!-- text area will give us box lenth and hight using cols and rows we can modify it -->
+            <td><textarea name="Your Message" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        
+        <tr>
+            <td><label for="4">Accept Terms & Conditions</label></td>
+            <td><input type="radio" ></td> 
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit"></td>
+        </tr>
+
+        
+    </table>
+</form>
+    
+
+</body>
+</html>
+
+
